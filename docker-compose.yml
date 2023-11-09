@@ -25,6 +25,8 @@ services:
       - POSTGRES_USER=teslamate
       - POSTGRES_PASSWORD=santiisagooddog #insert your secure database password!
       - POSTGRES_DB=teslamate
+    ports:
+      - 5432:5432
     volumes:
       - teslamate-db:/var/lib/postgresql/data
 
