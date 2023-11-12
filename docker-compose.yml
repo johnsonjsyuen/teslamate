@@ -2,7 +2,7 @@ version: "3"
 
 services:
   teslamate:
-    image: teslamate/teslamate:latest
+    image: teslamatefork/teslamatefork:edge
     restart: always
     environment:
       - ENCRYPTION_KEY=afdanofnalsknfekwan #insert a secure key to encrypt your Tesla API tokens
